@@ -1,0 +1,108 @@
+.full-monneyManager-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .full-monneyManager-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.monneyManager-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  min-height: 100px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .monneyManager-container {
+    min-height: 160px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .monneyManager-container {
+    min-height: 160px;
+    width: 350px;
+    margin-right: 27px;
+  }
+}
+.color1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.color2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+
+.color3 {
+  background-color: #cbd5e1;
+  border: 2px solid #7c3aed;
+}
+
+.inside-container {
+  margin: 15px;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .inside-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+  }
+}
+
+.image {
+  height: 60px;
+  margin: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 90px;
+    margin: 25px;
+  }
+}
+
+.balance-amount {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-amount {
+    margin-top: 15px;
+  }
+}
+
+.paragraph {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 20px;
+  }
+}
+
+.amount {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 35px;
+  }
+}
